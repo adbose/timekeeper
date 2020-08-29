@@ -3,24 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aditya Bose">
     <title>Timekeeper</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 
-<body  onload=getTime();>
+<body onload=getTime();>
 
     <h2 id="greeting">The Time is Now!</h2>
     <p id="clock"></p>
 
     <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
 
-    <script>
-        function toggleDarkMode() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-        }
-    </script>
-    <script defer src="scripts.js"></script>
 </body>
 
 </html>
