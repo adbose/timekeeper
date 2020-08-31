@@ -17,7 +17,7 @@ function toggleDarkMode() {
     link.classList.toggle("dark-mode");
 }
 
-var deadline = new Date("Aug 30, 2020 23:56:00").getTime();
+var deadline = new Date("Jan 1, 2021 00:00:00").getTime();
 
 function getCountdown() {
     
