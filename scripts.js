@@ -14,7 +14,10 @@ function toggleDarkMode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
     var link = document.getElementsByTagName('a')[0];
-    link.classList.toggle("dark-mode");
+    if (link) {
+        link.classList.toggle("dark-mode");
+    }
+    
 }
 
 var deadline = new Date("Jan 1, 2021 00:00:00").getTime();
